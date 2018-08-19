@@ -3,7 +3,7 @@ layout: post
 title:  "GitHub Pages域名绑定2018，别被旧文章误导了"
 categories: GitHub
 tags:  域名 domain githubpage 绑定
-
+author: Hannoch
 ---
 
 * content
