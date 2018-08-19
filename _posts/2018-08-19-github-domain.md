@@ -22,7 +22,7 @@ tags:  继承 对象 原型 Array 正则
 ![1.png](https://upload-images.jianshu.io/upload_images/5451635-e15abba26297658d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-往下翻输入你自己的域名，比如：example.com，your page is 这里先不用管，直接在domain写上你的域名,然后点save就行。
+往下翻输入你自己的域名，比如：example.com，your site is published at....这里先不用管，直接在domain写上你的域名,然后点save就行。
 
 ![2.png](https://upload-images.jianshu.io/upload_images/5451635-c4f01c98c9388060.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
