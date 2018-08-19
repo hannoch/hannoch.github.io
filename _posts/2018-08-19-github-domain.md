@@ -15,8 +15,8 @@ author: Hannoch
 2.注册域名
 到阿里云或者腾讯云买个自己喜欢的域名（.top域名不能作为腾讯域名邮箱）,以下用 example.com 表示你买的域名
 
-3.到项目的设置中添加刚刚买的域名（CNAME 拒绝）
-推荐下面的方式，不要用新建文件方式，免得出错
+3.到项目的设置中添加刚刚买的域名
+推荐下面的方式，不要用新建文件方式（新建CNAME文件的方法），免得出错
 
 ![1.png](https://upload-images.jianshu.io/upload_images/5451635-e15abba26297658d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
