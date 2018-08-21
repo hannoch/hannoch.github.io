@@ -15,7 +15,8 @@
   var demoContent = [
      {
       demo_link: 'https://github.com/hannoch/demo/tree/master/JavaScript/mask',
-      img_link: 'https://github.com/hannoch/demo/blob/master/JavaScript/mask/images/mask.png',
+      img_link: 'https://upload-images.jianshu.io/upload_images/5451635-708d9bf6aa61fd07.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
+',
       code_link: 'https://github.com/hannoch/demo/blob/master/JavaScript/mask/mask.html',
       title: '商品遮罩效果',
       core_tech: 'JavaScript',
