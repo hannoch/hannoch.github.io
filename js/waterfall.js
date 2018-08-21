@@ -19,14 +19,14 @@
       code_link: 'https://github.com/hannoch/demo/blob/master/JavaScript/mask/mask.html',
       title: '商品遮罩效果',
       core_tech: 'JavaScript',
-      description: 'DOM的操作，DOM节点的获取 <a href ="https://github.com/hannoch/demo/blob/master/JavaScript/mask/mask.html">这里</a>。'
+      description: 'DOM的操作，DOM节点的获取，动态的加上一个div上去 <a href ="https://github.com/hannoch/demo/blob/master/JavaScript/mask/mask.html">这里</a>。'
     },{
       demo_link: 'https://github.com/hannoch/demo/tree/master/JavaScript/create_table',
       img_link: 'https://upload-images.jianshu.io/upload_images/5451635-e9cd011873e1500b.png',
       code_link: 'https://github.com/hannoch/demo/blob/master/JavaScript/create_table/table.html',
       title: '动态创建表格和数据',
       core_tech: 'JavaScript',
-      description: '表格的操作 <a href ="https://github.com/hannoch/demo/blob/master/JavaScript/create_table/table.html">这里</a>。'
+      description: '数据的添加和删除，动态添加表格 <a href ="https://github.com/hannoch/demo/blob/master/JavaScript/create_table/table.html">这里</a>。'
     },{
       demo_link: 'https://codepen.io/haoyang/pen/jrvrQq',
       img_link: 'https://ooo.0o0.ooo/2016/11/24/5836d81f48cd2.png',
