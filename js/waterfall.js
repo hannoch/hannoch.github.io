@@ -14,14 +14,20 @@
      */
   var demoContent = [
      {
+      demo_link: 'https://github.com/hannoch/demo/tree/master/JavaScript/mask',
+      img_link: 'https://github.com/hannoch/demo/blob/master/JavaScript/mask/images/mask.png',
+      code_link: 'https://github.com/hannoch/demo/blob/master/JavaScript/mask/mask.html',
+      title: '商品遮罩效果',
+      core_tech: 'JavaScript',
+      description: 'DOM的操作，DOM节点的获取 <a href ="https://github.com/hannoch/demo/blob/master/JavaScript/mask/mask.html">这里</a>。'
+    },{
       demo_link: 'https://github.com/hannoch/demo/tree/master/JavaScript/create_table',
       img_link: 'https://github.com/hannoch/demo/blob/master/JavaScript/create_table/table.png',
       code_link: 'https://github.com/hannoch/demo/blob/master/JavaScript/create_table/table.html',
       title: '动态创建表格和数据',
       core_tech: 'JavaScript',
-      description: '动态创建表格和数据 <a href ="https://github.com/hannoch/demo/blob/master/JavaScript/create_table/table.html">这里</a>。'
-    },
-    {
+      description: '表格的操作 <a href ="https://github.com/hannoch/demo/blob/master/JavaScript/create_table/table.html">这里</a>。'
+    },{
       demo_link: 'https://codepen.io/haoyang/pen/jrvrQq',
       img_link: 'https://ooo.0o0.ooo/2016/11/24/5836d81f48cd2.png',
       code_link: 'https://codepen.io/haoyang/pen/jrvrQq',
