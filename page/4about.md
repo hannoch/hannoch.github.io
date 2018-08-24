@@ -75,7 +75,7 @@ type: page
 
 ## 友情链接
 
-[JWYBlog](ju5tw4nty0u.top) \| [codemonster](https://www.codemonster.cn) \|[NetSpecter](http://qxian.top/)\|[bugku平台](http://ctf.bugku.com/)\|[蓝鲸安全平台](http://whalectf.xin)\|[CTF题库-实验吧](http://www.shiyanbar.com/ctf/practice)
+[JWYBlog](https://ju5tw4nty0u.top) \| [codemonster](https://www.codemonster.cn) \|[NetSpecter](http://qxian.top/)\|[bugku平台](http://ctf.bugku.com/)\|[蓝鲸安全平台](http://whalectf.xin)\|[CTF题库-实验吧](http://www.shiyanbar.com/ctf/practice)
 ## Comments
 
 {% include comments.html %}
