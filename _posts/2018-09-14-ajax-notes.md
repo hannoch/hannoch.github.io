@@ -103,7 +103,7 @@ XMLHttpRequest对象的三个重要属性：
         }
     </script>
 ```
-# ajax 一般流程总结
+# 二、ajax 一般流程总结
 
 ```javascript
 <script>
