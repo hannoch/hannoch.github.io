@@ -87,7 +87,7 @@ XMLHttpRequest对象的三个重要属性：
 
  
 跟进javascript使用ajax的步骤编写一具体实例：
-```
+```javascript
 <script type="text/javascript" >
         function GetSendData() {
             document.getElementById("divTip").innerHTML = "正在加载中";
@@ -141,7 +141,7 @@ console.log(this)
 ## 1、jQuery下load方法
 
 在jQuery中使用load方法可以轻松获取异步数据的功能，语法格式如下：
-```
+```javascript
 <script type="text/javascript" >
         $(function () {
             $("#Button2").click(function () {
@@ -194,7 +194,7 @@ console.log(this)
 ```
 ## 3、getScript方法
 直接实例说明，创建一个文件UserInfo.js:
-```
+```javascript
 var data = [
     {
         "name": "张三",
@@ -217,7 +217,7 @@ var data = [
     $("#divTip").html(strHtml);
 ```
 调用方法：
-```
+```javascript
 <script type="text/javascript" >
         $(function () {
             $("Button1").click(function () {
@@ -231,7 +231,7 @@ var data = [
 
 具体实例：创建一个UserInfo.xml文件
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <Info>
   <User id="1">
@@ -248,7 +248,7 @@ var data = [
 ```
 调用方法：
 
-```
+```javascript
 <script type="text/javascript" >
         $(function () {
             $("Button1").click(function () {
@@ -275,7 +275,7 @@ var data = [
 jQuery中异步加载xml数据中使用$.get()函数，除此之外，$.get()函数还可以实现数据的请求。具体实例说明：
 
 创建一个页面UserInfo.aspx:
-```
+```aspx
 <%@ Page Language="C#" ContentType="text/html" ResponseEncoding="gb2312" %>
 
 <%
@@ -299,7 +299,7 @@ jQuery中异步加载xml数据中使用$.get()函数，除此之外，$.get()函
      %>
 ```
 使用$.get()进行调用：
-```
+```javascript
 <script type="text/javascript" >
         $(function () {
             $("#Button1").click(function () {
@@ -322,7 +322,7 @@ jQuery中异步加载xml数据中使用$.get()函数，除此之外，$.get()函
 
 具体实例：创建一个页面UserInfo2.aspx
 
-```
+```aspx
 <%@ Page Language="C#" ContentType="text/html" ResponseEncoding="gb2312" %>
 
 <%
@@ -348,7 +348,7 @@ jQuery中异步加载xml数据中使用$.get()函数，除此之外，$.get()函
 ```
 使用$.post()进行调用：
 
-```
+```javascript
 <script type="text/javascript" >
         $(function () {
             $("#Button1").click(function () {
@@ -375,7 +375,7 @@ $.ajax()方法是jQuery中最底层的方法，该方法不仅可以方便的完
 
 创建一页面：login.aspx
 
-```
+```aspx
 <%@ Page Language ="C#" ContentType="text/html" ResponseEncoding="gb2312"%>
 <%
     string strName = System.Web.HttpUtility.UrlDecode(Request["txtName"]);
@@ -391,7 +391,7 @@ $.ajax()方法是jQuery中最底层的方法，该方法不仅可以方便的完
 ```
 创建一前台界面：
 
-```
+```html
 <div>
                 <div id="divError"></div>
                 <div>名称：<input id="txtName" type="text"/></div>
@@ -406,7 +406,7 @@ $.ajax()方法是jQuery中最底层的方法，该方法不仅可以方便的完
 
 使用$.ajax()方法进行调用：
 
-```
+```javascript
 <script type="text/javascript" >
         $(function () {
             $("#btnLogin").click(function () {
@@ -442,7 +442,7 @@ $.ajaxSetup()设置全局Ajax。
 ajaxComplete(callback),ajaxError,ajaxSend,ajaxStart,ajaxStop,ajaxSuccess.
 
 ajax全局事件可以绑定在页面的任何一个元素中。实例：
-```
+```javascript
 $("#divTip").ajaxStart(function(){
    $(this).html("正在处理中...") ;
 })
@@ -453,7 +453,7 @@ $("#divTip").ajaxStart(function(){
 　　此次介绍它和后台系统的交互过程。编写一个函数，其中使用ajax向后台传递数据，并从后台获取数据，并显示出来。testMethod5函数中，id为13，后台process方法得到id=13后，将字符串heightstr复制78，然后传递到前台testMethod函数中并显示出来。
 　　
 前台函数testMethod5：
-```
+```javascript
 <script type="text/javascript" >
         function testMethod5() {
             var id = 13;
@@ -483,14 +483,14 @@ $("#divTip").ajaxStart(function(){
     </script>
 ```
 简单：
-```
+```html
 <div>
         <input type="button" id="Button1" value="btn3" onclick ="testMethod5()" />
     </div>
 ``` 
 后台代码编写，其中使用反射技术完成ajax前后台交互。
 
-```
+```aspx
 namespace OSCEWEB.UI
 {
     public partial class Test : System.Web.UI.Page
