@@ -127,7 +127,7 @@ xmlhttp.bnreadystatechange=function(){
 //通过xmlhttp的readyState判断此次请求的响应是否接收完成
 if(this.readyState ===4){
 //通过xmlhttp的responseText获取到响应的响应体
-console.og(this)
+console.log(this)
 </script>
 
 ```
