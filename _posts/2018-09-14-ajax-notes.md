@@ -275,7 +275,7 @@ var data = [
 jQuery中异步加载xml数据中使用$.get()函数，除此之外，$.get()函数还可以实现数据的请求。具体实例说明：
 
 创建一个页面UserInfo.aspx:
-```asp
+```javascript
 <%@ Page Language="C#" ContentType="text/html" ResponseEncoding="gb2312" %>
 
 <%
@@ -322,7 +322,7 @@ jQuery中异步加载xml数据中使用$.get()函数，除此之外，$.get()函
 
 具体实例：创建一个页面UserInfo2.aspx
 
-```asp
+```javascript
 <%@ Page Language="C#" ContentType="text/html" ResponseEncoding="gb2312" %>
 
 <%
@@ -375,7 +375,7 @@ $.ajax()方法是jQuery中最底层的方法，该方法不仅可以方便的完
 
 创建一页面：login.aspx
 
-```asp
+```javascript
 <%@ Page Language ="C#" ContentType="text/html" ResponseEncoding="gb2312"%>
 <%
     string strName = System.Web.HttpUtility.UrlDecode(Request["txtName"]);
@@ -492,7 +492,7 @@ $("#divTip").ajaxStart(function(){
 ``` 
 后台代码编写，其中使用反射技术完成ajax前后台交互。
 
-```asp
+```javascript
 namespace OSCEWEB.UI
 {
     public partial class Test : System.Web.UI.Page
@@ -571,7 +571,7 @@ namespace OSCEWEB.UI
 
 一般处理程序，一般处理程序是什么呢？ 一般处理程序实际上就是一个处理程序类。对于ASP.NET网站来说，网站最常见的处理结果就是HTML网页，生成网页的工作通常使用拓展名为ASPX的web窗体来完成。对于处理结果不是HTML的请求，都可以通过一般处理程序完成，例如：RSS、Feed、XML、图片等。一般处理程序是ASP.NET网站中最为简单、高效的处理程序，在处理返回类型不是HTML的请求中有着重要的作用。
 
-```asp
+```javascript
 public void ProcessRequest(HttpContext context)
         {
             context.Response.ContentType = "text/plain";
