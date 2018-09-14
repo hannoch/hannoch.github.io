@@ -42,7 +42,7 @@ XMLHttpRequest对象：所有现代浏览器均支持XMLHttpRequest对象，XMLH
     </script>
 ```
 ## 2）XMLHttpRequest对象向服务器发送请求：
-```javascipt
+```javascript
 objXmlHttp.open(method,url,async);
 objXmlHttp.send();
 ```
@@ -80,7 +80,9 @@ document.getElementById("myDiv").innerHTML=txt;
 XMLHttpRequest对象的三个重要属性：
 
 > **onreadystatechange**:存储函数（或函数名），每当readystate属性改变时，就会调用该函数。
+
 > **readystate**：有5个状态，0：请求未初始化，1：服务器连接已建立，2：请求已接收，3：请求处理中，4：请求已完成，且响应已就绪。
+
 > **status**:有200：“OK”，404：未找到页面。
 
  
