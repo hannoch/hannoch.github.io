@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "Ajax学习笔记"
 categories: Ajax
@@ -8,6 +8,7 @@ author: Hannoch
 
 * content
 {:toc}
+
 
 AJAX:Asynchronous Javascript And XML.
 
@@ -189,7 +190,7 @@ console.1og(this)
         })
     </script>
 ```
-# 3、getScript方法
+## 3、getScript方法
 直接实例说明，创建一个文件UserInfo.js:
 ```
 var data = [
