@@ -46,7 +46,7 @@ XMLHttpRequest对象：所有现代浏览器均支持XMLHttpRequest对象，XMLH
 objXmlHttp.open(method,url,async);
 objXmlHttp.send();
 ```
-> **method**：请求的类型有GET货POST;
+> **method**：请求的类型有GET或者POST;
 > **url**:文件在服务器上的位置；
 > **async**:true（异步）或false(同步).
 
