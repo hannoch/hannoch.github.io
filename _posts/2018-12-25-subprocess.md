@@ -14,6 +14,7 @@ author: Hannoch
 3.设计函数的返回值，方便调用者。
 
 '''python
+
 #python3
 # -*- coding: utf-8 -*-
 import subprocess
@@ -50,7 +51,7 @@ def excuteCmd(cmd, timeout = 1):
  
 #main function
 if  __name__ == '__main__':
-    ''' self test '''
+    
     try:
         print("test1")
         ret = excuteCmd("ping www.baidu.com",5)
