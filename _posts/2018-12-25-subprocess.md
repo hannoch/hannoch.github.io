@@ -13,7 +13,7 @@ author: Hannoch
 2.函数功能为执行参数1的命令行，不能阻塞；
 3.设计函数的返回值，方便调用者。
 
-'''python
+```python
 
 #python3
 # -*- coding: utf-8 -*-
@@ -62,7 +62,7 @@ if  __name__ == '__main__':
     except TimeoutError as e:
         print(e)
 
-'''
+```
 
 # Django 中应用思路
 
